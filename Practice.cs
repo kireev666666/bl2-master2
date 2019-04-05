@@ -17,26 +17,41 @@ namespace ConsoleApp7
             string sex1 = Convert.ToString(sex); //"M"
 
             char place = '3';//to int
+            int place1 = place;// "3"
             char hasFingerPrints = '0';//to boolean
+            bool hasFingerPrints1 = Convert.ToBoolean(hasFingerPrints);// "false"
 
             //2. STRING CONVERSION           
             string hasPhotoString = "True";//to bolean
+            bool hasPhotoString1 = Convert.ToBoolean(hasPhotoString);// "true"
             string flatNumber = "34";//to int
+            int flatNumber1 = Convert.ToInt32(flatNumber);// "34"
             string visaPriceString = "34,23";//to float
+            float visaPriceString1 = Convert.ToSingle(visaPriceString);
             string photoPriceString = "7.23";//to float
+            float photoPriceString1 = Convert.ToSingle(photoPriceString);
 
             //3. BOOL CONVERSION
             bool hasFree2Pages = false;//to string, to char, to int
+            string hasFree2Pages1 = Convert.ToString(hasFree2Pages);// "false"
+            char hasFree2Pages2 = Convert.ToChar(hasFree2Pages);// "false"
+            int hasFree2Pages3 = Convert.ToInt32(hasFree2Pages);// "0"
 
             //4. DECIMAL CONVERSION
             double visaPrice = 60;//to int, to string
+            int visaPrice1 = (int)visaPrice;// "60"
+            string visaPrice2 = Convert.ToString(visaPrice);
             double finterPrintsPrice = 55.2;//to int, to string
+            int finterPrintsPrice1 = (int)finterPrintsPrice;// "55"
+            string finterPrintsPrice2 = Convert.ToString(finterPrintsPrice);
 
             //4. INT CONVERSION
-            int birthYear = 2000;//to string, to double, to char
+            int birthYear = 2000;//to string, to double, to char            
             char birhtYearChar = (char)birthYear;
-
+            string birthYear1 = Convert.ToString(birthYear);
+            double birthYear2 = birthYear;// "2000,0f"
             int hasPhotoInt = 1;//to boolean
+            bool hasPhotoInt1 = Convert.ToBoolean(hasPhotoInt);// "true"
         }
     }
 }
