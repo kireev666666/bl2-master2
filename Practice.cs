@@ -19,7 +19,7 @@ namespace ConsoleApp7
             char place = '3';//to int
             int place1 = place;// "3"
             char hasFingerPrints = '0';//to boolean
-            bool hasFingerPrints1 = Convert.ToBoolean(hasFingerPrints);// "false"
+            bool hasFingerPrints1 = Convert.ToBoolean(hasFingerPrints);// "not compiling"
 
             //2. STRING CONVERSION           
             string hasPhotoString = "True";//to bolean
@@ -40,15 +40,15 @@ namespace ConsoleApp7
             //4. DECIMAL CONVERSION
             double visaPrice = 60;//to int, to string
             int visaPrice1 = (int)visaPrice;// "60"
-            string visaPrice2 = Convert.ToString(visaPrice);
+            string visaPrice2 = Convert.ToString(visaPrice);//"00360030"
             double finterPrintsPrice = 55.2;//to int, to string
             int finterPrintsPrice1 = (int)finterPrintsPrice;// "55"
-            string finterPrintsPrice2 = Convert.ToString(finterPrintsPrice);
+            string finterPrintsPrice2 = Convert.ToString(finterPrintsPrice);// "00350035002C0032"
 
             //4. INT CONVERSION
             int birthYear = 2000;//to string, to double, to char            
-            char birhtYearChar = (char)birthYear;
-            string birthYear1 = Convert.ToString(birthYear);
+            char birhtYearChar = (char)birthYear;//"0032003000300030"
+            string birthYear1 = Convert.ToString(birthYear);//"0032003000300030"
             double birthYear2 = birthYear;// "2000,0f"
             int hasPhotoInt = 1;//to boolean
             bool hasPhotoInt1 = Convert.ToBoolean(hasPhotoInt);// "true"
